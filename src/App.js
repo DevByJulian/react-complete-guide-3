@@ -6,8 +6,9 @@ import Person from './components/Person/person';
 class App extends Component {
   render() {
     return (
+      
       <div className="App">
-        <Person />
+        <Person name='basicboy' age='27'>I'm just a basicboy!</Person>
       </div>
     );
   }
